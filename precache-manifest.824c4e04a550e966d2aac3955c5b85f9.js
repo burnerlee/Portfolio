@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "24f74a150dd0bbce92ff",
+    "revision": "61a37002a897c50edada",
     "url": "./static/css/main.d98617f1.chunk.css"
   },
   {
-    "revision": "24f74a150dd0bbce92ff",
-    "url": "./static/js/main.290463ad.chunk.js"
+    "revision": "61a37002a897c50edada",
+    "url": "./static/js/main.dbcb895e.chunk.js"
   },
   {
     "revision": "8c97409f0ee389fe75da",
@@ -36,10 +36,6 @@ self.__precacheManifest = [
     "url": "./static/media/chinar.d6b08844.png"
   },
   {
-    "revision": "c1733565b32b585676302d4233c39da8",
-    "url": "./static/media/nucleo-icons.c1733565.eot"
-  },
-  {
     "revision": "426439788ec5ba772cdf94057f6f4659",
     "url": "./static/media/nucleo-icons.42643978.woff2"
   },
@@ -48,12 +44,16 @@ self.__precacheManifest = [
     "url": "./static/media/nucleo-icons.2569aaea.woff"
   },
   {
-    "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
-    "url": "./static/media/nucleo-icons.0b8a30b1.svg"
+    "revision": "c1733565b32b585676302d4233c39da8",
+    "url": "./static/media/nucleo-icons.c1733565.eot"
   },
   {
     "revision": "f82ec6ba2dc4181db2af35c499462840",
     "url": "./static/media/nucleo-icons.f82ec6ba.ttf"
+  },
+  {
+    "revision": "0b8a30b10cbe7708d5f3a4b007c1d665",
+    "url": "./static/media/nucleo-icons.0b8a30b1.svg"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "./static/media/Agustina.03cfd7bc.otf"
   },
   {
-    "revision": "32822a562878dd80851aa085afb31a82",
+    "revision": "c3f8354fa5a85cd64e57c6523b44b6e5",
     "url": "./index.html"
   }
 ];
