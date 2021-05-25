@@ -1,0 +1,188 @@
+/*!
+
+=========================================================
+* Argon Design System React - v1.1.0 based on Argon Design System - v1.1.1
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/argon-design-system-react
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+
+* Coded by www.creative-tim.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+// Bootstrap Functions
+@import "../../../node_modules/bootstrap/scss/functions";
+
+// Theme Variables
+@import "argon-design-system/variables";
+
+// Bootstrap Core
+@import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Theme Core
+@import "argon-design-system/theme";
+
+// React Differences
+@import "react/react-differences";
+
+@keyframes flipInX {
+  from {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    opacity: 0;
+    -webkit-transform: perspective(400px) rotateY(90deg);
+    transform: perspective(400px) rotateY(90deg);
+  }
+  40% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: perspective(400px) rotateY(-20deg);
+    transform: perspective(400px) rotateY(-20deg);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: perspective(400px) rotateY(10deg);
+    transform: perspective(400px) rotateY(10deg);
+  }
+  80% {
+    -webkit-transform: perspective(400px) rotateY(-5deg);
+    transform: perspective(400px) rotateY(5deg);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: perspective(400px);
+    transform: perspective(400px);
+  }
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.current-navlink {
+  color: #ffffff !important;
+  font-weight: bold !important;
+  text-decoration: underline !important;
+}
+
+.main-section {
+  margin: 0 !important;
+}
+
+.skill-desc {
+  text-align: left !important;
+}
+
+#education {
+  padding-bottom: 5rem !important;
+  .card-body {
+    height: 15rem !important;
+  }
+}
+
+#experience {
+  padding-bottom: 0 !important;
+  .card-header {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+}
+#experience .card-body {
+  height: 35rem !important;
+  padding-top: 1.5rem !important;
+}
+
+.flip-in-x {
+  height: 4rem;
+  margin: 6px !important;
+  margin-bottom: 1rem !important;
+}
+.flip-in-x:hover .flip-child {
+  transition: transform 1s ease-in;
+  transform: rotateY(360deg);
+}
+.flip-child {
+  padding-bottom: 12px;
+}
+
+.exp-card {
+  height: 120px !important;
+  width: 120px !important;
+}
+
+#projects {
+  .card-body {
+    height: 18rem !important;
+  }
+}
+@media (max-width: 768px) {
+  #education .card-body {
+    height: auto !important;
+  }
+
+  #experience {
+    .card-body {
+      height: auto !important;
+      padding-top: 1.5rem !important;
+    }
+  }
+  #projects {
+    .card-body {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+      height: auto !important;
+    }
+  }
+  .icon-container {
+    margin-top: 3rem !important;
+  }
+}
+
+.outer-fill {
+  height: 2rem;
+  width: 100%;
+  background: #eee;
+  margin-bottom: 1rem;
+}
+@keyframes slide {
+  from {
+    background-position: right bottom;
+  }
+  to {
+    background-position: left bottom;
+  }
+}
+.inner-fill {
+  height: 100%;
+  margin-right: 6px;
+  background: linear-gradient(to right, #172b4d 50%, #eee 50%);
+  background-size: 200% 100%;
+  transition: all 1s ease;
+  background-position: right bottom;
+}
+
+// .inner-fill:hover {
+//   animation-duration: 1s;
+//   animation-name: slide;
+// }
+
+.stack-name {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  color: #ffffff;
+  background: linear-gradient(to right, #11cdef, #1171ef);
+  transition: 15s ease-out;
+  font-weight: bold;
+  font-size: 1rem;
+}
